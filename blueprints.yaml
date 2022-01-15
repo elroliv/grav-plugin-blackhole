@@ -29,6 +29,10 @@ form:
       collapsed: false
       collapsible: false
       fields:
+        generate.input_url:
+          type: text
+          label: Input URL
+          help: "Enter the URL to your live Grav site. If you user docker-compose container call with service name like 'http://your_frontend_service_name' Ex.: 'http://nginx'"
         generate.output_url:
           type: text
           label: Output URL
